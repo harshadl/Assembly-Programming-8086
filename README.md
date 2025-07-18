@@ -19,11 +19,13 @@ sudo apt install nasm gdb build-essential
 
 Build & Run Instructions
 
-; Commands to debug this code; 
+; Commands to execute this code; 
 ;$gedit hello.asm              
 ;$nasm -f elf32 -g hello.asm -o hello.o         
 ;$ld -m elf_i386 hello.o -o hello
 ;$./hello
+
+; It will show output on terminal prompt as $ Hello World !
 
 ; -g flag to include debugging info in the object file.
 ;-f option specifies the output file format that NASM should generate. elf32 , elf64,win32
